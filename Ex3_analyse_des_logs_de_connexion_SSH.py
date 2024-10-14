@@ -2,7 +2,7 @@
 import random
 
 # Fonction qui simule l'analyse des logs SSH
-def analyse_logs_ssh(nb_tentatives):
+def analyser_logs_ssh(nb_tentatives):
     echec_consecutif = 0  # Compteur pour suivre les échecs consécutifs
     
     # Boucle pour simuler les tentatives de connexion
@@ -23,4 +23,4 @@ def analyse_logs_ssh(nb_tentatives):
             break
 
 # Exemple d'utilisation
-analyse_logs_ssh(10)  # Simule 10 tentatives de connexion
+analyser_logs_ssh(10)  # Simule 10 tentatives de connexion
